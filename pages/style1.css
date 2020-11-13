@@ -1,0 +1,90 @@
+body{
+    background-image:url('../images/1.jpg') ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+   justify-content: center;
+  
+}
+
+
+  
+#main
+{
+ height:90%;
+ width:30%;
+background-color:white ;
+ margin: auto;
+ padding:10px;
+ z-index: 40px;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ border-radius: 50px;
+ position: fixed;
+ opacity:.7;
+ 
+ 
+}
+  
+  h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #be9155;
+    text-shadow: 3px 3px 10px #000;
+  }
+  
+img
+{
+  width:50px;
+  height:50px;
+  border-radius:60px;
+  padding: 4px;
+
+}
+  input{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: 9px auto;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    border-radius:30px;
+    border: none;
+    background: rgba(3,3,3,.1);
+   
+  }
+  
+  input:focus{
+    outline: none;
+    box-shadow: 3px 3px 10px #333;
+    background: rgba(3,3,3,.18);
+  }
+  
+ 
+  .btn{
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0px 5px 10px #1543a0, 0px 1px 0px rgb(32, 31, 31);
+    border-radius: 50px;
+    font-size:30px;
+    text-align:center;
+    width:200px;
+    height:70px;
+    outline:none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    padding: 15px 20px 20px;
+    background: rgba(209, 186, 69, 0.3);
+    font-weight: bold;
+  }
+  
+  .btn:hover{
+    opacity: 0.7;
+  }
+
